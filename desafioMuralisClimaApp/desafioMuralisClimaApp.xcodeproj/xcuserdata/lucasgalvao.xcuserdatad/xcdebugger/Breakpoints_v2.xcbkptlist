@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BF275873-A93B-4841-B252-67A6DBD0F97B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "090D9E9B-1934-47AA-BBFF-1453ACEF5757"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "desafioMuralisClimaApp/Utils/NetworkServices.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "getisError()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BCF03E6C-1489-4CAC-A611-4389E9A25CB2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "desafioMuralisClimaApp/Utils/NetworkServices.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "267"
+            endingLineNumber = "267"
+            landmarkName = "getMeasurementsDetails(at:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E44D7880-1415-4096-B6AA-BA5C7317D5EC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "desafioMuralisClimaApp/Utils/NetworkServices.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "280"
+            endingLineNumber = "280"
+            landmarkName = "getMeasurementsDetails(at:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E44D7880-1415-4096-B6AA-BA5C7317D5EC - ac92a5c013fc041b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in desafioMuralisClimaApp.NetworkServices.getMeasurementsDetails(at: Swift.String) -&gt; ()"
+                  moduleName = "desafioMuralisClimaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasgalvao/Documents/swift%20projects/desafioMuralisClimaApp/desafioMuralisClimaApp/desafioMuralisClimaApp/Utils/NetworkServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "280"
+                  endingLineNumber = "280"
+                  offsetFromSymbolStart = "2224">
+               </Location>
+               <Location
+                  uuid = "E44D7880-1415-4096-B6AA-BA5C7317D5EC - ac92a5c013fc043a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in desafioMuralisClimaApp.NetworkServices.getMeasurementsDetails(at: Swift.String) -&gt; ()"
+                  moduleName = "desafioMuralisClimaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasgalvao/Documents/swift%20projects/desafioMuralisClimaApp/desafioMuralisClimaApp/desafioMuralisClimaApp/Utils/NetworkServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "281"
+                  endingLineNumber = "281"
+                  offsetFromSymbolStart = "2284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52491680-0BC0-449F-94E1-238CF0D04DE9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "desafioMuralisClimaApp/Utils/NetworkServices.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "285"
+            endingLineNumber = "285"
+            landmarkName = "getMeasurementsDetails(at:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "52491680-0BC0-449F-94E1-238CF0D04DE9 - ac92a5c013fc05be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in desafioMuralisClimaApp.NetworkServices.getMeasurementsDetails(at: Swift.String) -&gt; ()"
+                  moduleName = "desafioMuralisClimaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasgalvao/Documents/swift%20projects/desafioMuralisClimaApp/desafioMuralisClimaApp/desafioMuralisClimaApp/Utils/NetworkServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "285"
+                  endingLineNumber = "285"
+                  offsetFromSymbolStart = "2952">
+               </Location>
+               <Location
+                  uuid = "52491680-0BC0-449F-94E1-238CF0D04DE9 - ac92a5c013fc05dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in desafioMuralisClimaApp.NetworkServices.getMeasurementsDetails(at: Swift.String) -&gt; ()"
+                  moduleName = "desafioMuralisClimaApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucasgalvao/Documents/swift%20projects/desafioMuralisClimaApp/desafioMuralisClimaApp/desafioMuralisClimaApp/Utils/NetworkServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "286"
+                  endingLineNumber = "286"
+                  offsetFromSymbolStart = "3012">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E3A04436-475F-4D37-8917-4B4D730A0C97"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "desafioMuralisClimaApp/Measurements/MeasurementsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "getDetails(at:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

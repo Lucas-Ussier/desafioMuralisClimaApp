@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D90CABE42B8405C8002A88E9 /* MeasurementsDteailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CABE32B8405C8002A88E9 /* MeasurementsDteailsViewController.swift */; };
+		D90CABE72B861F9F002A88E9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CABE62B861F9F002A88E9 /* SettingsViewController.swift */; };
+		D90CABE92B86466D002A88E9 /* MeasurementsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CABE82B86466D002A88E9 /* MeasurementsViewModel.swift */; };
+		D90CABED2B86702A002A88E9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CABEC2B86702A002A88E9 /* Utils.swift */; };
+		D90CABF02B8673A7002A88E9 /* MeasurementsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CABEE2B8673A7002A88E9 /* MeasurementsTableViewCell.swift */; };
+		D90CABF12B8673A7002A88E9 /* MeasurementsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90CABEF2B8673A7002A88E9 /* MeasurementsTableViewCell.xib */; };
+		D9111F262B86C86000E4198B /* UIScrollView_InfiniteScroll in Frameworks */ = {isa = PBXBuildFile; productRef = D9111F252B86C86000E4198B /* UIScrollView_InfiniteScroll */; };
+		D9111F292B87799D00E4198B /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9111F282B87799D00E4198B /* Token.swift */; };
+		D9111F2B2B8779C000E4198B /* Measures.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9111F2A2B8779C000E4198B /* Measures.swift */; };
+		D9111F2D2B8779CF00E4198B /* WeatherEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9111F2C2B8779CF00E4198B /* WeatherEntry.swift */; };
+		D9111F2F2B877A0300E4198B /* WeatherDescripition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9111F2E2B877A0300E4198B /* WeatherDescripition.swift */; };
+		D9111F312B87BA5900E4198B /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9111F302B87BA5900E4198B /* LoginTests.swift */; };
+		D91792582B8100720039FBC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91792572B8100720039FBC5 /* AppDelegate.swift */; };
+		D917925A2B8100720039FBC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91792592B8100720039FBC5 /* SceneDelegate.swift */; };
+		D917925C2B8100720039FBC5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D917925B2B8100720039FBC5 /* LoginViewController.swift */; };
+		D917925F2B8100720039FBC5 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D917925D2B8100720039FBC5 /* Login.storyboard */; };
+		D91792612B8100740039FBC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91792602B8100740039FBC5 /* Assets.xcassets */; };
+		D91792642B8100740039FBC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91792622B8100740039FBC5 /* LaunchScreen.storyboard */; };
+		D917926F2B8100740039FBC5 /* desafioMuralisClimaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D917926E2B8100740039FBC5 /* desafioMuralisClimaAppTests.swift */; };
+		D91792792B8100740039FBC5 /* desafioMuralisClimaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91792782B8100740039FBC5 /* desafioMuralisClimaAppUITests.swift */; };
+		D917927B2B8100740039FBC5 /* desafioMuralisClimaAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D917927A2B8100740039FBC5 /* desafioMuralisClimaAppUITestsLaunchTests.swift */; };
+		D917928A2B810DD50039FBC5 /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91792892B810DD50039FBC5 /* NetworkServices.swift */; };
+		D917928F2B81B9640039FBC5 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D917928E2B81B9640039FBC5 /* MenuViewController.swift */; };
+		D9AF494F2B82C3880009EC4D /* MeasurementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AF494E2B82C3880009EC4D /* MeasurementsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D917926B2B8100740039FBC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D917924C2B8100720039FBC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D91792532B8100720039FBC5;
+			remoteInfo = desafioMuralisClimaApp;
+		};
+		D91792752B8100740039FBC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D917924C2B8100720039FBC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D91792532B8100720039FBC5;
+			remoteInfo = desafioMuralisClimaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D90CABE32B8405C8002A88E9 /* MeasurementsDteailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementsDteailsViewController.swift; sourceTree = "<group>"; };
+		D90CABE62B861F9F002A88E9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D90CABE82B86466D002A88E9 /* MeasurementsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementsViewModel.swift; sourceTree = "<group>"; };
+		D90CABEC2B86702A002A88E9 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		D90CABEE2B8673A7002A88E9 /* MeasurementsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementsTableViewCell.swift; sourceTree = "<group>"; };
+		D90CABEF2B8673A7002A88E9 /* MeasurementsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeasurementsTableViewCell.xib; sourceTree = "<group>"; };
+		D9111F282B87799D00E4198B /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		D9111F2A2B8779C000E4198B /* Measures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measures.swift; sourceTree = "<group>"; };
+		D9111F2C2B8779CF00E4198B /* WeatherEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherEntry.swift; sourceTree = "<group>"; };
+		D9111F2E2B877A0300E4198B /* WeatherDescripition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDescripition.swift; sourceTree = "<group>"; };
+		D9111F302B87BA5900E4198B /* LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTests.swift; sourceTree = "<group>"; };
+		D91792542B8100720039FBC5 /* desafioMuralisClimaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desafioMuralisClimaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91792572B8100720039FBC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D91792592B8100720039FBC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D917925B2B8100720039FBC5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D917925E2B8100720039FBC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		D91792602B8100740039FBC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D91792632B8100740039FBC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D91792652B8100740039FBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D917926A2B8100740039FBC5 /* desafioMuralisClimaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = desafioMuralisClimaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D917926E2B8100740039FBC5 /* desafioMuralisClimaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desafioMuralisClimaAppTests.swift; sourceTree = "<group>"; };
+		D91792742B8100740039FBC5 /* desafioMuralisClimaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = desafioMuralisClimaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91792782B8100740039FBC5 /* desafioMuralisClimaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desafioMuralisClimaAppUITests.swift; sourceTree = "<group>"; };
+		D917927A2B8100740039FBC5 /* desafioMuralisClimaAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desafioMuralisClimaAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D91792892B810DD50039FBC5 /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
+		D917928E2B81B9640039FBC5 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		D9AF494E2B82C3880009EC4D /* MeasurementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D91792512B8100720039FBC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9111F262B86C86000E4198B /* UIScrollView_InfiniteScroll in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91792672B8100740039FBC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91792712B8100740039FBC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D90CABE22B8405AD002A88E9 /* MeasurementsDetails */ = {
+			isa = PBXGroup;
+			children = (
+				D90CABE32B8405C8002A88E9 /* MeasurementsDteailsViewController.swift */,
+			);
+			path = MeasurementsDetails;
+			sourceTree = "<group>";
+		};
+		D90CABE52B861F86002A88E9 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D90CABE62B861F9F002A88E9 /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		D9111F272B87798E00E4198B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9111F282B87799D00E4198B /* Token.swift */,
+				D9111F2A2B8779C000E4198B /* Measures.swift */,
+				D9111F2C2B8779CF00E4198B /* WeatherEntry.swift */,
+				D9111F2E2B877A0300E4198B /* WeatherDescripition.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D917924B2B8100720039FBC5 = {
+			isa = PBXGroup;
+			children = (
+				D91792562B8100720039FBC5 /* desafioMuralisClimaApp */,
+				D917926D2B8100740039FBC5 /* desafioMuralisClimaAppTests */,
+				D91792772B8100740039FBC5 /* desafioMuralisClimaAppUITests */,
+				D91792552B8100720039FBC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D91792552B8100720039FBC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D91792542B8100720039FBC5 /* desafioMuralisClimaApp.app */,
+				D917926A2B8100740039FBC5 /* desafioMuralisClimaAppTests.xctest */,
+				D91792742B8100740039FBC5 /* desafioMuralisClimaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D91792562B8100720039FBC5 /* desafioMuralisClimaApp */ = {
+			isa = PBXGroup;
+			children = (
+				D9111F272B87798E00E4198B /* Model */,
+				D90CABE52B861F86002A88E9 /* Settings */,
+				D90CABE22B8405AD002A88E9 /* MeasurementsDetails */,
+				D9AF494D2B82C3420009EC4D /* Measurements */,
+				D917928B2B81B8860039FBC5 /* Menu */,
+				D91792882B810DB60039FBC5 /* Utils */,
+				D91792872B8100980039FBC5 /* login */,
+				D91792572B8100720039FBC5 /* AppDelegate.swift */,
+				D91792592B8100720039FBC5 /* SceneDelegate.swift */,
+				D91792602B8100740039FBC5 /* Assets.xcassets */,
+				D91792622B8100740039FBC5 /* LaunchScreen.storyboard */,
+				D91792652B8100740039FBC5 /* Info.plist */,
+			);
+			path = desafioMuralisClimaApp;
+			sourceTree = "<group>";
+		};
+		D917926D2B8100740039FBC5 /* desafioMuralisClimaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D917926E2B8100740039FBC5 /* desafioMuralisClimaAppTests.swift */,
+				D9111F302B87BA5900E4198B /* LoginTests.swift */,
+			);
+			path = desafioMuralisClimaAppTests;
+			sourceTree = "<group>";
+		};
+		D91792772B8100740039FBC5 /* desafioMuralisClimaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D91792782B8100740039FBC5 /* desafioMuralisClimaAppUITests.swift */,
+				D917927A2B8100740039FBC5 /* desafioMuralisClimaAppUITestsLaunchTests.swift */,
+			);
+			path = desafioMuralisClimaAppUITests;
+			sourceTree = "<group>";
+		};
+		D91792872B8100980039FBC5 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				D917925B2B8100720039FBC5 /* LoginViewController.swift */,
+				D917925D2B8100720039FBC5 /* Login.storyboard */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		D91792882B810DB60039FBC5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D91792892B810DD50039FBC5 /* NetworkServices.swift */,
+				D90CABEC2B86702A002A88E9 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D917928B2B81B8860039FBC5 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				D917928E2B81B9640039FBC5 /* MenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		D9AF494D2B82C3420009EC4D /* Measurements */ = {
+			isa = PBXGroup;
+			children = (
+				D9AF494E2B82C3880009EC4D /* MeasurementsViewController.swift */,
+				D90CABE82B86466D002A88E9 /* MeasurementsViewModel.swift */,
+				D90CABEE2B8673A7002A88E9 /* MeasurementsTableViewCell.swift */,
+				D90CABEF2B8673A7002A88E9 /* MeasurementsTableViewCell.xib */,
+			);
+			path = Measurements;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D91792532B8100720039FBC5 /* desafioMuralisClimaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D917927E2B8100740039FBC5 /* Build configuration list for PBXNativeTarget "desafioMuralisClimaApp" */;
+			buildPhases = (
+				D91792502B8100720039FBC5 /* Sources */,
+				D91792512B8100720039FBC5 /* Frameworks */,
+				D91792522B8100720039FBC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = desafioMuralisClimaApp;
+			packageProductDependencies = (
+				D9111F252B86C86000E4198B /* UIScrollView_InfiniteScroll */,
+			);
+			productName = desafioMuralisClimaApp;
+			productReference = D91792542B8100720039FBC5 /* desafioMuralisClimaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D91792692B8100740039FBC5 /* desafioMuralisClimaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D91792812B8100740039FBC5 /* Build configuration list for PBXNativeTarget "desafioMuralisClimaAppTests" */;
+			buildPhases = (
+				D91792662B8100740039FBC5 /* Sources */,
+				D91792672B8100740039FBC5 /* Frameworks */,
+				D91792682B8100740039FBC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D917926C2B8100740039FBC5 /* PBXTargetDependency */,
+			);
+			name = desafioMuralisClimaAppTests;
+			productName = desafioMuralisClimaAppTests;
+			productReference = D917926A2B8100740039FBC5 /* desafioMuralisClimaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D91792732B8100740039FBC5 /* desafioMuralisClimaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D91792842B8100740039FBC5 /* Build configuration list for PBXNativeTarget "desafioMuralisClimaAppUITests" */;
+			buildPhases = (
+				D91792702B8100740039FBC5 /* Sources */,
+				D91792712B8100740039FBC5 /* Frameworks */,
+				D91792722B8100740039FBC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D91792762B8100740039FBC5 /* PBXTargetDependency */,
+			);
+			name = desafioMuralisClimaAppUITests;
+			productName = desafioMuralisClimaAppUITests;
+			productReference = D91792742B8100740039FBC5 /* desafioMuralisClimaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D917924C2B8100720039FBC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D91792532B8100720039FBC5 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D91792692B8100740039FBC5 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D91792532B8100720039FBC5;
+					};
+					D91792732B8100740039FBC5 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D91792532B8100720039FBC5;
+					};
+				};
+			};
+			buildConfigurationList = D917924F2B8100720039FBC5 /* Build configuration list for PBXProject "desafioMuralisClimaApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D917924B2B8100720039FBC5;
+			packageReferences = (
+				D9111F242B86C85F00E4198B /* XCRemoteSwiftPackageReference "UIScrollView-InfiniteScroll" */,
+			);
+			productRefGroup = D91792552B8100720039FBC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D91792532B8100720039FBC5 /* desafioMuralisClimaApp */,
+				D91792692B8100740039FBC5 /* desafioMuralisClimaAppTests */,
+				D91792732B8100740039FBC5 /* desafioMuralisClimaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D91792522B8100720039FBC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91792642B8100740039FBC5 /* LaunchScreen.storyboard in Resources */,
+				D91792612B8100740039FBC5 /* Assets.xcassets in Resources */,
+				D90CABF12B8673A7002A88E9 /* MeasurementsTableViewCell.xib in Resources */,
+				D917925F2B8100720039FBC5 /* Login.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91792682B8100740039FBC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91792722B8100740039FBC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D91792502B8100720039FBC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90CABE42B8405C8002A88E9 /* MeasurementsDteailsViewController.swift in Sources */,
+				D917925C2B8100720039FBC5 /* LoginViewController.swift in Sources */,
+				D9111F2F2B877A0300E4198B /* WeatherDescripition.swift in Sources */,
+				D9111F2B2B8779C000E4198B /* Measures.swift in Sources */,
+				D917928F2B81B9640039FBC5 /* MenuViewController.swift in Sources */,
+				D9111F292B87799D00E4198B /* Token.swift in Sources */,
+				D91792582B8100720039FBC5 /* AppDelegate.swift in Sources */,
+				D917928A2B810DD50039FBC5 /* NetworkServices.swift in Sources */,
+				D90CABED2B86702A002A88E9 /* Utils.swift in Sources */,
+				D90CABF02B8673A7002A88E9 /* MeasurementsTableViewCell.swift in Sources */,
+				D9AF494F2B82C3880009EC4D /* MeasurementsViewController.swift in Sources */,
+				D917925A2B8100720039FBC5 /* SceneDelegate.swift in Sources */,
+				D90CABE72B861F9F002A88E9 /* SettingsViewController.swift in Sources */,
+				D90CABE92B86466D002A88E9 /* MeasurementsViewModel.swift in Sources */,
+				D9111F2D2B8779CF00E4198B /* WeatherEntry.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91792662B8100740039FBC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D917926F2B8100740039FBC5 /* desafioMuralisClimaAppTests.swift in Sources */,
+				D9111F312B87BA5900E4198B /* LoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91792702B8100740039FBC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91792792B8100740039FBC5 /* desafioMuralisClimaAppUITests.swift in Sources */,
+				D917927B2B8100740039FBC5 /* desafioMuralisClimaAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D917926C2B8100740039FBC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D91792532B8100720039FBC5 /* desafioMuralisClimaApp */;
+			targetProxy = D917926B2B8100740039FBC5 /* PBXContainerItemProxy */;
+		};
+		D91792762B8100740039FBC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D91792532B8100720039FBC5 /* desafioMuralisClimaApp */;
+			targetProxy = D91792752B8100740039FBC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D917925D2B8100720039FBC5 /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D917925E2B8100720039FBC5 /* Base */,
+			);
+			name = Login.storyboard;
+			sourceTree = "<group>";
+		};
+		D91792622B8100740039FBC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D91792632B8100740039FBC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D917927C2B8100740039FBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D917927D2B8100740039FBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D917927F2B8100740039FBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8NGYASRWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = desafioMuralisClimaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Login;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lucas-galvao.desafioMuralisClimaApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D91792802B8100740039FBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8NGYASRWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = desafioMuralisClimaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Login;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lucas-galvao.desafioMuralisClimaApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D91792822B8100740039FBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8NGYASRWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lucas-galvao.desafioMuralisClimaAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/desafioMuralisClimaApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/desafioMuralisClimaApp";
+			};
+			name = Debug;
+		};
+		D91792832B8100740039FBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8NGYASRWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lucas-galvao.desafioMuralisClimaAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/desafioMuralisClimaApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/desafioMuralisClimaApp";
+			};
+			name = Release;
+		};
+		D91792852B8100740039FBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8NGYASRWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lucas-galvao.desafioMuralisClimaAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = desafioMuralisClimaApp;
+			};
+			name = Debug;
+		};
+		D91792862B8100740039FBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8NGYASRWZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lucas-galvao.desafioMuralisClimaAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = desafioMuralisClimaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D917924F2B8100720039FBC5 /* Build configuration list for PBXProject "desafioMuralisClimaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D917927C2B8100740039FBC5 /* Debug */,
+				D917927D2B8100740039FBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D917927E2B8100740039FBC5 /* Build configuration list for PBXNativeTarget "desafioMuralisClimaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D917927F2B8100740039FBC5 /* Debug */,
+				D91792802B8100740039FBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D91792812B8100740039FBC5 /* Build configuration list for PBXNativeTarget "desafioMuralisClimaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91792822B8100740039FBC5 /* Debug */,
+				D91792832B8100740039FBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D91792842B8100740039FBC5 /* Build configuration list for PBXNativeTarget "desafioMuralisClimaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91792852B8100740039FBC5 /* Debug */,
+				D91792862B8100740039FBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D9111F242B86C85F00E4198B /* XCRemoteSwiftPackageReference "UIScrollView-InfiniteScroll" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pronebird/UIScrollView-InfiniteScroll";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D9111F252B86C86000E4198B /* UIScrollView_InfiniteScroll */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9111F242B86C85F00E4198B /* XCRemoteSwiftPackageReference "UIScrollView-InfiniteScroll" */;
+			productName = UIScrollView_InfiniteScroll;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D917924C2B8100720039FBC5 /* Project object */;
+}
