@@ -62,14 +62,14 @@ extension MenuViewController: UITableViewDelegate, UITableViewDataSource{
             
         case 2:
             let alerta = UIAlertController(title: "",
-                                           message: "Você está realizando o Logout, deseja continuar?",
+                                           message: "You are logging out, do you want to continue?",
                                            preferredStyle: .alert)
-            let sim = UIAlertAction(title: "Sim",
+            let sim = UIAlertAction(title: "Yes",
                                     style: .destructive) { action in
                 self.navigationController?.popViewController(animated: true)
                 NetworkServices.shared.resetToken()
             }
-            let nao = UIAlertAction(title: "Não", style: .cancel)
+            let nao = UIAlertAction(title: "No", style: .cancel)
             alerta.addAction(sim)
             alerta.addAction(nao)
             present(alerta, animated: true)

@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
@@ -37,7 +38,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ch-aC-ybT">
                                 <rect key="frame" x="120" y="677" width="174" height="35"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Login"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Login">
+                                    <color key="baseBackgroundColor" name="AccentColor"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="loginButtonApertado:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eSK-Ut-b2I"/>
                                 </connections>
@@ -60,11 +63,12 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vfy-AZ-lTc" secondAttribute="bottom" constant="149" id="VAb-ZD-5jB"/>
                             <constraint firstItem="6L5-CI-26j" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="140" id="W4v-21-tqd"/>
                             <constraint firstItem="vfy-AZ-lTc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XfY-t2-1x5"/>
+                            <constraint firstItem="7ch-aC-ybT" firstAttribute="top" secondItem="QgP-At-iXk" secondAttribute="bottom" constant="136" id="ZWd-i0-UIg"/>
                             <constraint firstItem="7ch-aC-ybT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="bkO-oV-4b9"/>
                             <constraint firstItem="vfy-AZ-lTc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="197" id="g2R-mj-Pcu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7ch-aC-ybT" secondAttribute="bottom" constant="150" id="g68-7l-6aO"/>
                             <constraint firstItem="QgP-At-iXk" firstAttribute="top" secondItem="XOw-vg-ssR" secondAttribute="bottom" constant="20" id="pQz-6I-h7H"/>
-                            <constraint firstItem="XOw-vg-ssR" firstAttribute="top" secondItem="6L5-CI-26j" secondAttribute="bottom" constant="100" id="vEm-OK-FmW"/>
+                            <constraint firstItem="XOw-vg-ssR" firstAttribute="top" relation="lessThanOrEqual" secondItem="6L5-CI-26j" secondAttribute="bottom" constant="100" id="vEm-OK-FmW"/>
                             <constraint firstItem="6L5-CI-26j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="z7Q-sQ-gOv"/>
                         </constraints>
                     </view>
@@ -73,7 +77,7 @@
                         <outlet property="emailTextField" destination="XOw-vg-ssR" id="vKz-hA-Qvv"/>
                         <outlet property="loginActivityIndicator" destination="vfy-AZ-lTc" id="Qtn-o9-9Al"/>
                         <outlet property="loginButton" destination="7ch-aC-ybT" id="4wL-j5-j95"/>
-                        <outlet property="senhaTextField" destination="QgP-At-iXk" id="Vzc-nv-p5G"/>
+                        <outlet property="passwordTextField" destination="QgP-At-iXk" id="f4i-G7-JyZ"/>
                         <segue destination="QSV-aw-bbw" kind="show" identifier="mainMenuSegue" id="5Ou-zG-APP"/>
                     </connections>
                 </viewController>
@@ -88,6 +92,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="5ez-1A-MRW">
                         <rect key="frame" x="0.0" y="48" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" name="AccentColor"/>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" name="AccentColor"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="azP-jX-rji"/>
@@ -590,6 +598,9 @@
         <image name="cloud.circle" catalog="system" width="128" height="123"/>
         <image name="logo-muralis" width="1320" height="352"/>
         <image name="sun.max.fill" catalog="system" width="128" height="125"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.25499999523162842" blue="0.56099998950958252" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

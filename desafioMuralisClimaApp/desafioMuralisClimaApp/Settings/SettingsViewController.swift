@@ -23,13 +23,6 @@ class SettingsViewController:UIViewController{
         super.viewDidLoad()
         self.title = "Settings"
         setupMenu()
-        
-        let buttons = [temperatureButton, visibilityButton, pressureButton, windSpeedButton, precipitationButton]
-        
-        for button in buttons {
-            button?.showsMenuAsPrimaryAction = true
-            button?.changesSelectionAsPrimaryAction = true
-        }
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -42,6 +35,13 @@ class SettingsViewController:UIViewController{
     }
     
     func setupMenu(){
+        let buttons = [temperatureButton, visibilityButton, pressureButton, windSpeedButton, precipitationButton]
+        
+        for button in buttons {
+            button?.showsMenuAsPrimaryAction = true
+            button?.changesSelectionAsPrimaryAction = true
+        }
+        
         let tempAction = {(act: UIAction) in
             self.updateTitle(button: self.temperatureButton, title: act.title)
         }

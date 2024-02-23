@@ -12,19 +12,21 @@ class LoginViewController: UIViewController {
     var network: NetworkServices = NetworkServices.shared
     
     @IBOutlet weak var emailTextField: UITextField!
-    @IBOutlet weak var senhaTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var loginActivityIndicator: UIActivityIndicatorView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.setNavigationBarHidden(true, animated: true)
-        self.senhaTextField.isSecureTextEntry = true
+        self.passwordTextField.isSecureTextEntry = true
+        self.passwordTextField.delegate = self
+        self.emailTextField.delegate = self
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        self.senhaTextField.text = ""
+        self.passwordTextField.text = ""
         self.emailTextField.text = ""
         self.loginButton.isHidden = false
         self.loginActivityIndicator.isHidden = true
@@ -33,7 +35,7 @@ class LoginViewController: UIViewController {
     
     @IBAction func loginButtonApertado(_ sender: UIButton) {
         let email = emailTextField.text ?? ""
-        let password = senhaTextField.text ?? ""
+        let password = passwordTextField.text ?? ""
         
         self.loginButton.isHidden = true
         self.loginActivityIndicator.isHidden = false
@@ -73,7 +75,11 @@ class LoginViewController: UIViewController {
             }))
         }
     }
-    
-    
 }
 
+extension LoginViewController: UITextFieldDelegate{
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.endEditing(true)
+        return true
+    }
+}
